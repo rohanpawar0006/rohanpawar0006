@@ -14,7 +14,7 @@
 <!-- ================================================================= -->
 <!-- ACT I // ABOUT                                                    -->
 <!-- ================================================================= -->
-Final-year B.E. student (AI/ML & Data Science) at SVCE, graduating 2027. Building production-grade AI systems with raw Python, PyTorch, and deterministic pipelines without framework bloat. Actively seeking AI/ML Engineer and Data Analyst internships [starting Jan 2027].
+Final-year B.E. student CSE(AI) at SVCE, graduating 2027. Building production-grade AI systems with raw Python, PyTorch, and deterministic pipelines without framework bloat. Actively seeking AI/ML Engineer and Data Analyst internships .
 
 <br/>
 
