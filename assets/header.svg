@@ -1,0 +1,25 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#0B0F1A"/><stop offset="0.52" stop-color="#11152A"/><stop offset="1" stop-color="#0B0F1A"/></linearGradient>
+  <linearGradient id="neon" x1="210" y1="100" x2="970" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#00E5FF"/><stop offset="0.52" stop-color="#4D8BFF"/><stop offset="1" stop-color="#7C4DFF"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="358" rx="27" stroke="#FFFFFF" stroke-opacity=".13"/>
+<rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+<circle cx="105" cy="80" r="65" fill="#00E5FF" fill-opacity=".15" filter="url(#blur)"><animate attributeName="cy" values="80;105;80" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="1080" cy="275" r="85" fill="#7C4DFF" fill-opacity=".16" filter="url(#blur)"><animate attributeName="cy" values="275;245;275" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="950" cy="80" r="38" fill="#4D8BFF" fill-opacity=".13" filter="url(#blur)"/>
+<rect x="48" y="42" width="1104" height="276" rx="24" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-opacity=".14"/>
+<rect x="72" y="66" width="1056" height="228" rx="18" stroke="url(#neon)" stroke-opacity=".18"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="92" y="112" fill="#00E5FF" font-size="14" font-weight="700" letter-spacing="4">AI / ML • DATA • SYSTEMS</text>
+  <text x="92" y="180" fill="#F4F7FF" font-size="58" font-weight="800">ROHAN PAWAR</text>
+  <rect x="94" y="199" width="300" height="3" rx="2" fill="url(#neon)"/>
+  <text x="92" y="238" fill="#DCE5F7" font-size="24" font-weight="600">AI/ML Engineer in the making</text>
+  <text x="92" y="270" fill="#9AA7BD" font-size="15">Building AI that actually ships — RAG, computer vision &amp; agents.</text>
+</g>
+<g opacity=".75"><circle cx="1010" cy="116" r="5" fill="#00E5FF"><animate attributeName="cy" values="116;104;116" dur="3.2s" repeatCount="indefinite"/></circle><circle cx="1060" cy="152" r="3" fill="#7C4DFF"><animate attributeName="cx" values="1060;1048;1060" dur="4.5s" repeatCount="indefinite"/></circle><circle cx="1025" cy="205" r="4" fill="#4D8BFF"><animate attributeName="cy" values="205;220;205" dur="5s" repeatCount="indefinite"/></circle></g>
+</svg>
