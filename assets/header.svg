@@ -154,18 +154,18 @@
   </text>
 
   <!-- Glowing Subtitle / Role -->
-  <text x="50" y="160" fill="#00E5FF" class="font-mono" font-size="16.5" font-weight="600" letter-spacing="1">
-    &gt; AI / ML ENGINEER IN THE MAKING
+  <text x="50" y="160" fill="#00E5FF" class="font-mono" font-size="14.5" font-weight="600" letter-spacing="0.8">
+    &gt; AI/ML ENGINEER IN THE MAKING · COMPUTER VISION · RAG · INTELLIGENT SYSTEMS
   </text>
 
   <!-- Tagline / Elevator Pitch -->
-  <text x="50" y="196" fill="#E2E8F0" class="font-sans" font-size="15" font-weight="500" letter-spacing="0.1">
-    Building AI that actually ships — RAG pipelines, real-time computer vision &amp; autonomous agents.
+  <text x="50" y="196" fill="#E2E8F0" class="font-sans" font-size="14.5" font-weight="500" letter-spacing="0.1">
+    Building practical AI systems that turn machine learning research, retrieval, computer vision, and software engineering into usable products.
   </text>
 
   <!-- Supporting Context -->
   <text x="50" y="222" fill="#94A3B8" class="font-sans" font-size="12.5" font-weight="400">
-    Zero-bloat architecture from first principles • Production-focused ML • Ready for high-impact teams
+    B.E. CSE(AI) @ SVCE '27 • Raw primitives over bloated frameworks • End-to-end production pipelines
   </text>
 
   <!-- Right-Hand Futuristic AI Chip / Neural Graphic -->

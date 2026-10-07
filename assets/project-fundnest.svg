@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="fn-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0F24" />
+      <stop offset="50%" stop-color="#141432" />
+      <stop offset="100%" stop-color="#08081A" />
+    </linearGradient>
+
+    <linearGradient id="fn-glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C4DFF" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#00E5FF" stop-opacity="0.4" />
+      <stop offset="80%" stop-color="#3D8BFF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0.5" />
+    </linearGradient>
+
+    <radialGradient id="fn-glow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#7C4DFF" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="fn-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#3D3866" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+      .pulse-dot-violet { animation: pulseV 2s infinite ease-in-out; }
+      @keyframes pulseV { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
+
+  <rect width="900" height="310" rx="14" fill="url(#fn-bg-grad)" />
+  <rect width="900" height="310" rx="14" fill="url(#fn-glow)" />
+  <rect width="900" height="310" rx="14" fill="url(#fn-grid)" />
+  <rect width="900" height="310" rx="14" fill="none" stroke="url(#fn-glass-border)" stroke-width="1.2" />
+
+  <!-- Top Glass Highlight Line -->
+  <path d="M 20 1 L 880 1" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1" />
+
+  <!-- LEFT SECTION -->
+  <g transform="translate(36, 28)">
+    <rect x="0" y="0" width="102" height="22" rx="11" fill="#7C4DFF" fill-opacity="0.15" stroke="#7C4DFF" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="10" cy="11" r="3" fill="#A78BFA" class="pulse-dot-violet" />
+    <text x="20" y="15" fill="#C4B5FD" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="0.5">FULL-STACK</text>
+
+    <rect x="112" y="0" width="194" height="22" rx="11" fill="#00E5FF" fill-opacity="0.12" stroke="#00E5FF" stroke-opacity="0.4" stroke-width="1" />
+    <text x="122" y="15" fill="#00E5FF" class="font-mono" font-size="9.5" font-weight="600" letter-spacing="0.4">AI-ENHANCED PLATFORM</text>
+  </g>
+
+  <text x="36" y="80" fill="#FFFFFF" class="font-sans" font-size="28" font-weight="800" letter-spacing="-0.5">
+    FundNest
+  </text>
+  <text x="175" y="79" fill="#A78BFA" class="font-mono" font-size="13" font-weight="600">
+    // Intelligent Crowdfunding
+  </text>
+
+  <text x="36" y="108" fill="#CBD5E1" class="font-sans" font-size="14.5" font-weight="500">
+    Full-stack crowdfunding web app equipped with Gemini API generative copywriting &amp; story summarization.
+  </text>
+
+  <g transform="translate(36, 126)">
+    <circle cx="5" cy="8" r="3" fill="#A78BFA" />
+    <text x="16" y="12" fill="#94A3B8" class="font-sans" font-size="12.5">
+      <tspan fill="#F1F5F9" font-weight="600">End-to-End Architecture:</tspan> React (Vite) frontend + Node/Express backend with MongoDB &amp; secure JWT auth
+    </text>
+
+    <circle cx="5" cy="30" r="3" fill="#A78BFA" />
+    <text x="16" y="34" fill="#94A3B8" class="font-sans" font-size="12.5">
+      <tspan fill="#F1F5F9" font-weight="600">AI Campaign Assistant:</tspan> Gemini API turns rough creator concepts into structured titles and compelling stories
+    </text>
+
+    <circle cx="5" cy="52" r="3" fill="#A78BFA" />
+    <text x="16" y="56" fill="#94A3B8" class="font-sans" font-size="12.5">
+      <tspan fill="#F1F5F9" font-weight="600">AI Story Summarizer:</tspan> Distills lengthy pitches into rapid bullet points helping backers make faster decisions
+    </text>
+  </g>
+
+  <!-- Tech Stack Chips -->
+  <g transform="translate(36, 212)">
+    <rect x="0" y="0" width="88" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="44" y="16" fill="#93C5FD" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">React • Vite</text>
+
+    <rect x="96" y="0" width="108" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="150" y="16" fill="#68D391" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">Node • Express</text>
+
+    <rect x="212" y="0" width="88" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="256" y="16" fill="#48BB78" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">MongoDB</text>
+
+    <rect x="308" y="0" width="105" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="360.5" y="16" fill="#FDE047" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">Gemini API</text>
+
+    <rect x="421" y="0" width="100" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="471" y="16" fill="#38BDF8" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">Tailwind CSS</text>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(36, 258)">
+    <rect x="0" y="0" width="130" height="28" rx="6" fill="#7C4DFF" fill-opacity="0.15" stroke="#7C4DFF" stroke-width="1" />
+    <text x="65" y="18" fill="#C4B5FD" class="font-mono" font-size="11" font-weight="700" text-anchor="middle">VIEW REPO ↗</text>
+  </g>
+
+  <!-- RIGHT SECTION: Dashboard Preview Panel -->
+  <g transform="translate(570, 28)">
+    <rect x="0" y="0" width="294" height="254" rx="10" fill="#060616" fill-opacity="0.9" stroke="#252445" stroke-width="1.2" />
+    <rect x="0" y="0" width="294" height="26" rx="10" fill="#12132D" />
+    <path d="M 0 16 L 294 16 L 294 26 L 0 26 Z" fill="#12132D" />
+    <circle cx="14" cy="13" r="4" fill="#EF4444" fill-opacity="0.8" />
+    <circle cx="27" cy="13" r="4" fill="#F59E0B" fill-opacity="0.8" />
+    <circle cx="40" cy="13" r="4" fill="#10B981" fill-opacity="0.8" />
+    <text x="147" y="16" fill="#818CF8" class="font-mono" font-size="9" text-anchor="middle">fundnest // campaign_portal</text>
+
+    <g transform="translate(14, 40)">
+      <!-- Campaign card simulation -->
+      <rect x="0" y="0" width="266" height="84" rx="6" fill="#101230" stroke="#2D2B55" stroke-width="1" />
+      <text x="10" y="20" fill="#C4B5FD" class="font-mono" font-size="9">CAMPAIGN: CLEAN WATER INITIATIVE</text>
+      <!-- Progress Bar -->
+      <rect x="10" y="32" width="246" height="8" rx="4" fill="#1E1B4B" />
+      <rect x="10" y="32" width="180" height="8" rx="4" fill="#00E5FF" />
+      <text x="10" y="56" fill="#F1F5F9" class="font-sans" font-size="9.5" font-weight="600">$18,400 raised of $25,000</text>
+      <text x="10" y="72" fill="#94A3B8" class="font-mono" font-size="8.5">74% funded · 142 backers</text>
+
+      <!-- Gemini Assistant Box -->
+      <rect x="0" y="94" width="266" height="90" rx="6" fill="#0B1528" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="1" />
+      <text x="10" y="112" fill="#00E5FF" class="font-mono" font-size="9">🤖 GEMINI STORY SUMMARIZER:</text>
+      <text x="10" y="130" fill="#E2E8F0" class="font-sans" font-size="8.5">"Solar-powered water filtration units deployed</text>
+      <text x="10" y="145" fill="#E2E8F0" class="font-sans" font-size="8.5">across 4 rural communities with verified impact."</text>
+      <text x="10" y="168" fill="#34D399" class="font-mono" font-size="8.5">✓ Backer Decision Velocity: Fast</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="ra-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220" />
+      <stop offset="50%" stop-color="#0D192E" />
+      <stop offset="100%" stop-color="#070D18" />
+    </linearGradient>
+
+    <linearGradient id="ra-glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#3D8BFF" stop-opacity="0.4" />
+      <stop offset="80%" stop-color="#7C4DFF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.5" />
+    </linearGradient>
+
+    <radialGradient id="ra-glow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="ra-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2E3C5C" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+      .pulse-dot-cyan { animation: pulseC 2s infinite ease-in-out; }
+      @keyframes pulseC { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
+
+  <rect width="900" height="310" rx="14" fill="url(#ra-bg-grad)" />
+  <rect width="900" height="310" rx="14" fill="url(#ra-glow)" />
+  <rect width="900" height="310" rx="14" fill="url(#ra-grid)" />
+  <rect width="900" height="310" rx="14" fill="none" stroke="url(#ra-glass-border)" stroke-width="1.2" />
+
+  <!-- Top Glass Highlight Line -->
+  <path d="M 20 1 L 880 1" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1" />
+
+  <!-- LEFT SECTION -->
+  <g transform="translate(36, 28)">
+    <rect x="0" y="0" width="86" height="22" rx="11" fill="#00E5FF" fill-opacity="0.12" stroke="#00E5FF" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="10" cy="11" r="3" fill="#00E5FF" class="pulse-dot-cyan" />
+    <text x="20" y="15" fill="#00E5FF" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="0.5">AGENT</text>
+
+    <rect x="96" y="0" width="230" height="22" rx="11" fill="#7C4DFF" fill-opacity="0.15" stroke="#7C4DFF" stroke-opacity="0.4" stroke-width="1" />
+    <text x="106" y="15" fill="#C4B5FD" class="font-mono" font-size="9.5" font-weight="600" letter-spacing="0.4">RESEARCH AUTOMATION PIPELINE</text>
+  </g>
+
+  <text x="36" y="80" fill="#FFFFFF" class="font-sans" font-size="28" font-weight="800" letter-spacing="-0.5">
+    Research Brief Agent
+  </text>
+  <text x="325" y="79" fill="#00E5FF" class="font-mono" font-size="13" font-weight="600">
+    // Autonomous Synthesis
+  </text>
+
+  <text x="36" y="108" fill="#CBD5E1" class="font-sans" font-size="14.5" font-weight="500">
+    AI research engine synthesizing source-grounded briefs with strict low-confidence degradation guardrails.
+  </text>
+
+  <g transform="translate(36, 126)">
+    <circle cx="5" cy="8" r="3" fill="#00E5FF" />
+    <text x="16" y="12" fill="#94A3B8" class="font-sans" font-size="12.5">
+      <tspan fill="#F1F5F9" font-weight="600">Structured 4-Part Schema:</tspan> Synthesizes Summary, Key Points, Sources &amp; Confidence Notes in &lt;60s
+    </text>
+
+    <circle cx="5" cy="30" r="3" fill="#00E5FF" />
+    <text x="16" y="34" fill="#94A3B8" class="font-sans" font-size="12.5">
+      <tspan fill="#F1F5F9" font-weight="600">Anti-Hallucination Guardrail:</tspan> Explicit degradation path halts generation and alerts on thin/conflicting data
+    </text>
+
+    <circle cx="5" cy="52" r="3" fill="#00E5FF" />
+    <text x="16" y="56" fill="#94A3B8" class="font-sans" font-size="12.5">
+      <tspan fill="#F1F5F9" font-weight="600">Production Web Dashboard:</tspan> Vite + React interface with live Gemini search grounding &amp; 1-click Markdown export
+    </text>
+  </g>
+
+  <!-- Tech Stack Chips -->
+  <g transform="translate(36, 212)">
+    <rect x="0" y="0" width="90" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="45" y="16" fill="#67E8F9" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">TypeScript</text>
+
+    <rect x="98" y="0" width="88" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="142" y="16" fill="#93C5FD" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">React • Vite</text>
+
+    <rect x="194" y="0" width="105" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="246.5" y="16" fill="#FDE047" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">Gemini API</text>
+
+    <rect x="307" y="0" width="130" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="372" y="16" fill="#C4B5FD" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">Search Grounding</text>
+
+    <rect x="445" y="0" width="100" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="495" y="16" fill="#38BDF8" class="font-mono" font-size="11" font-weight="600" text-anchor="middle">Tailwind CSS</text>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(36, 258)">
+    <rect x="0" y="0" width="130" height="28" rx="6" fill="#00E5FF" fill-opacity="0.1" stroke="#00E5FF" stroke-width="1" />
+    <text x="65" y="18" fill="#00E5FF" class="font-mono" font-size="11" font-weight="700" text-anchor="middle">VIEW REPO ↗</text>
+  </g>
+
+  <!-- RIGHT SECTION: Dashboard Preview Panel -->
+  <g transform="translate(570, 28)">
+    <rect x="0" y="0" width="294" height="254" rx="10" fill="#040914" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.2" />
+    <rect x="0" y="0" width="294" height="26" rx="10" fill="#0B132B" />
+    <path d="M 0 16 L 294 16 L 294 26 L 0 26 Z" fill="#0B132B" />
+    <circle cx="14" cy="13" r="4" fill="#EF4444" fill-opacity="0.8" />
+    <circle cx="27" cy="13" r="4" fill="#F59E0B" fill-opacity="0.8" />
+    <circle cx="40" cy="13" r="4" fill="#10B981" fill-opacity="0.8" />
+    <text x="147" y="16" fill="#64748B" class="font-mono" font-size="9" text-anchor="middle">research-agent // web_dashboard</text>
+
+    <g transform="translate(14, 40)">
+      <text x="0" y="12" fill="#64748B" class="font-mono" font-size="9.5">&gt; Ingesting Topic Query...</text>
+      <text x="0" y="27" fill="#38BDF8" class="font-mono" font-size="9.5">✓ Entity Grounding: Gemini 2.0 Flash</text>
+
+      <!-- 4-part brief simulation -->
+      <rect x="0" y="38" width="266" height="84" rx="6" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+      <text x="10" y="54" fill="#00E5FF" class="font-mono" font-size="9">1. EXECUTIVE SUMMARY</text>
+      <text x="10" y="68" fill="#E2E8F0" class="font-sans" font-size="8.5">Synthesized findings with verifiable claims.</text>
+      <text x="10" y="86" fill="#A78BFA" class="font-mono" font-size="9">2. KEY TAKEAWAYS (3 Points)</text>
+      <text x="10" y="100" fill="#94A3B8" class="font-sans" font-size="8.5">Deterministic structure parsed into cards.</text>
+      <text x="10" y="114" fill="#34D399" class="font-mono" font-size="8.5">✓ 3 verified citations indexed</text>
+
+      <!-- Degradation Guardrail status -->
+      <rect x="0" y="130" width="266" height="54" rx="6" fill="#031E17" stroke="#059669" stroke-width="1" />
+      <text x="10" y="148" fill="#34D399" class="font-mono" font-size="9">CONFIDENCE ENGINE: HIGH (&gt;0.85)</text>
+      <text x="10" y="164" fill="#D1FAE5" class="font-sans" font-size="8.5">Degradation guardrail inactive: data verified.</text>
+      <text x="10" y="177" fill="#6EE7B7" class="font-mono" font-size="8">1-Click Export: Markdown &amp; JSON ready</text>
+    </g>
+  </g>
+</svg>
