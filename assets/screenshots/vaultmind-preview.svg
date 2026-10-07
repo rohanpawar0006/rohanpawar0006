@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="800" height="450" rx="12" fill="url(#vp-bg)" stroke="#334155" stroke-width="2" />
+
+  <!-- App Header -->
+  <rect width="800" height="50" rx="12" fill="#1E293B" />
+  <path d="M 0 35 L 800 35 L 800 50 L 0 50 Z" fill="#1E293B" />
+  <circle cx="25" cy="25" r="6" fill="#EF4444" />
+  <circle cx="45" cy="25" r="6" fill="#F59E0B" />
+  <circle cx="65" cy="25" r="6" fill="#10B981" />
+  <text x="400" y="30" fill="#94A3B8" class="font-mono" font-size="14" text-anchor="middle">VaultMind-RAG // Streamlit Obsidian UI</text>
+
+  <!-- Content Simulation -->
+  <g transform="translate(40, 80)">
+    <!-- Sidebar simulation -->
+    <rect x="0" y="0" width="200" height="330" rx="8" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+    <text x="20" y="30" fill="#38BDF8" class="font-mono" font-size="12" font-weight="700">OBSIDIAN VAULT</text>
+    <text x="20" y="60" fill="#94A3B8" class="font-sans" font-size="11">📂 Notes Indexed: 42</text>
+    <text x="20" y="85" fill="#94A3B8" class="font-sans" font-size="11">⚡ Chunks: 184</text>
+    <text x="20" y="110" fill="#94A3B8" class="font-sans" font-size="11">🎯 Threshold: 0.70</text>
+    <rect x="20" y="130" width="160" height="28" rx="6" fill="#0284C7" />
+    <text x="100" y="148" fill="#FFFFFF" class="font-sans" font-size="11" font-weight="600" text-anchor="middle">Re-index Vault</text>
+
+    <!-- Main Panel -->
+    <g transform="translate(220, 0)">
+      <rect x="0" y="0" width="500" height="330" rx="8" fill="#0A0F1D" stroke="#1E293B" stroke-width="1" />
+      <text x="25" y="35" fill="#FFFFFF" class="font-sans" font-size="18" font-weight="700">Query Assistant</text>
+
+      <!-- User query bubble -->
+      <rect x="25" y="55" width="450" height="40" rx="6" fill="#1E293B" />
+      <text x="40" y="80" fill="#E2E8F0" class="font-mono" font-size="12">&gt; What are the trade-offs of Raft vs Paxos in our notes?</text>
+
+      <!-- Response box -->
+      <rect x="25" y="110" width="450" height="150" rx="6" fill="#0D1936" stroke="#0284C7" stroke-width="1" />
+      <text x="40" y="135" fill="#38BDF8" class="font-mono" font-size="11">CITATION-GROUNDED SYNTHESIS (Gemini Flash):</text>
+      <text x="40" y="160" fill="#F1F5F9" class="font-sans" font-size="12">According to your note [[distributed-consensus.md]]:</text>
+      <text x="40" y="185" fill="#94A3B8" class="font-sans" font-size="12">1. Raft simplifies state decomposition into leader election and log replication.</text>
+      <text x="40" y="210" fill="#94A3B8" class="font-sans" font-size="12">2. Similarity score: 0.884 (Grounding Gate Passed).</text>
+      <text x="40" y="240" fill="#34D399" class="font-mono" font-size="11">✓ Source citation verified</text>
+    </g>
+  </g>
+</svg>
