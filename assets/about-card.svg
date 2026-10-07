@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="ab-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F1C" />
+      <stop offset="50%" stop-color="#0E1528" />
+      <stop offset="100%" stop-color="#080C16" />
+    </linearGradient>
+    <linearGradient id="ab-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#3D8BFF" stop-opacity="0.3" />
+      <stop offset="80%" stop-color="#7C4DFF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.5" />
+    </linearGradient>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    </style>
+  </defs>
+
+  <!-- Glass Card Background -->
+  <rect width="900" height="200" rx="14" fill="url(#ab-bg)" />
+  <rect width="900" height="200" rx="14" fill="none" stroke="url(#ab-border)" stroke-width="1.2" />
+
+  <!-- Top Specular Highlight -->
+  <path d="M 20 1 L 880 1" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1" />
+
+  <!-- Card Content -->
+  <g transform="translate(36, 28)">
+    <!-- Section Label -->
+    <text x="0" y="14" fill="#00E5FF" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.2">
+      // EXECUTIVE SUMMARY
+    </text>
+
+    <!-- Point 1: Background & Focus -->
+    <circle cx="4" cy="40" r="3" fill="#00E5FF" />
+    <text x="16" y="44" fill="#F1F5F9" class="font-sans" font-size="14.5" font-weight="500">
+      <tspan font-weight="700" fill="#FFFFFF">Final-year B.E. CSE(AI) @ SVCE '27</tspan> undergrad engineering end-to-end machine learning pipelines.
+    </text>
+
+    <!-- Point 2: Core Philosophy -->
+    <circle cx="4" cy="68" r="3" fill="#7C4DFF" />
+    <text x="16" y="72" fill="#CBD5E1" class="font-sans" font-size="14">
+      Focused on <tspan fill="#38BDF8" font-weight="600">zero-bloat architectures</tspan>: deterministic RAG without framework overhead, edge computer vision, and grounded LLM agents.
+    </text>
+
+    <!-- Point 3: Currently Building & Exploring -->
+    <circle cx="4" cy="96" r="3" fill="#3D8BFF" />
+    <text x="16" y="100" fill="#CBD5E1" class="font-sans" font-size="14">
+      <tspan fill="#E2E8F0" font-weight="600">Currently building:</tspan> Autonomous agent workflows &amp; multi-modal perception systems while scaling production data analytics.
+    </text>
+
+    <!-- Point 4: Opportunity status -->
+    <circle cx="4" cy="124" r="3" fill="#10B981" />
+    <text x="16" y="128" fill="#34D399" class="font-sans" font-size="14" font-weight="600">
+      Actively seeking AI/ML Engineer &amp; Data Analyst Internships — ready to write production code on day one.
+    </text>
+  </g>
+</svg>

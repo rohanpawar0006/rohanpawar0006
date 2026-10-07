@@ -1,182 +1,278 @@
 <div align="center">
-  <img src="assets/header.svg" alt="Rohan Pawar — AI/ML Engineer in the making" width="100%" />
-</div>
 
-<div align="center">
+  <!-- ================================================================= -->
+  <!-- 1. ANIMATED HERO HEADER                                           -->
+  <!-- ================================================================= -->
   <a href="https://github.com/rohanpawar0006">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=700&lines=RAG+Systems+%E2%80%A2+Computer+Vision+%E2%80%A2+AI+Agents+%E2%80%A2+Data+Analytics;Building+AI+that+actually+ships.;From+data+to+models+to+usable+products." alt="Typing introduction" />
+    <img src="assets/header.svg" alt="Rohan Pawar - AI/ML Engineer in the Making" width="100%" />
   </a>
+
+  <br/>
+
+  <!-- ================================================================= -->
+  <!-- 2. TYPING INTRO DYNAMIC BANNER                                   -->
+  <!-- ================================================================= -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00E5FF&center=true&vCenter=true&width=650&height=45&lines=RAG+Systems+Engineered+From+First+Principles;Real-Time+Computer+Vision+%26+Edge+Inference;Autonomous+Agents+%26+Deterministic+Pipelines;Actively+Seeking+AI%2FML+Internships" alt="Typing SVG" />
+  </a>
+
+  <br/>
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+  <br/>
+
 </div>
 
-<p align="center">
-  <a href="https://github.com/rohanpawar0006"><img src="https://img.shields.io/badge/GitHub-rohanpawar0006-0B0F1A?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/rohan-pawar-bba78b290/"><img src="https://img.shields.io/badge/LinkedIn-Rohan%20Pawar-0B0F1A?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" /></a>
-  <a href="mailto:rohanpawar0006@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0B0F1A?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email" /></a>
-</p>
+<!-- ================================================================= -->
+<!-- 3. ABOUT ME (FROSTED GLASS CARD)                                  -->
+<!-- ================================================================= -->
+<div align="center">
+  <img src="assets/about-card.svg" width="100%" alt="About Rohan Pawar" />
+</div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<br/>
 
-## ◈ ABOUT ME
+> 💡 **Core Philosophy:** *Anyone can `pip install` a monolithic wrapper. Real engineering means understanding chunking dynamics, loss surfaces, embedding distances, latency ceilings, and grounding guarantees.*
 
-<table width="100%">
-<tr><td>
+<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</div>
+<br/>
 
-**Final-year B.E. student in CSE(AI) at SVCE, graduating 2027.** I build practical AI systems across **RAG, computer vision, intelligent agents, and data analytics** — with an emphasis on understanding the underlying mechanics instead of hiding everything behind frameworks.
+<!-- ================================================================= -->
+<!-- 4. FEATURED PROJECTS                                             -->
+<!-- ================================================================= -->
+## ⚡ Featured Production Projects
 
-Currently building deeper skills in **production-grade AI, retrieval systems, ML engineering, and analytics workflows**. **Open to AI/ML internship opportunities** where I can ship, learn, and contribute to real products.
-
-</td></tr>
+<table>
+  <tr>
+    <td>
+      <!-- Project 1: VaultMind-RAG -->
+      <a href="https://github.com/rohanpawar0006/vaultmind-rag">
+        <img src="assets/project-vaultmind.svg" width="100%" alt="VaultMind-RAG Project Card" />
+      </a>
+      <p align="center">
+        <a href="https://github.com/rohanpawar0006/vaultmind-rag">
+          <img src="https://img.shields.io/badge/Repository-VaultMind--RAG-00E5FF?style=for-the-badge&logo=github&logoColor=0B0F1A" alt="VaultMind Repo" />
+        </a>
+      </p>
+      <details>
+        <summary><b>🔍 Deep-Dive: Architecture &amp; Mechanics (Click to Expand)</b></summary>
+        <br/>
+        <ul>
+          <li><b>Zero LangChain / LlamaIndex:</b> Built purely using raw Python, ChromaDB, and Google GenAI SDK to ensure full control over chunking and retrieval behavior.</li>
+          <li><b>Sanitization &amp; Chunking:</b> Cleans Markdown metadata, code fences, and wikilinks using a custom sliding-window chunker with dynamic overlap.</li>
+          <li><b>Local Dense Embeddings:</b> Uses <code>sentence-transformers/all-MiniLM-L6-v2</code> running locally to generate 384-dimensional dense vectors.</li>
+          <li><b>Threshold Cosine Fallback:</b> Calculates cosine similarity scores; if top-k matches fall below threshold (&lt; 0.70), it safely refuses to hallucinate and alerts the user.</li>
+          <li><b>Obsidian Native UX:</b> Streamlit frontend themed with Obsidian Dark palette, returning responses with clickable source note links (<code>[[note#header]]</code>).</li>
+        </ul>
+        <div align="center">
+          <a href="https://github.com/rohanpawar0006/vaultmind-rag">
+            <img src="assets/screenshots/vaultmind-preview.svg" width="85%" alt="VaultMind UI Screenshot" />
+          </a>
+        </div>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <br/>
+      <!-- Project 2: SignBridge AI -->
+      <a href="https://github.com/rohanpawar0006/SignBridge-AI">
+        <img src="assets/project-signbridge.svg" width="100%" alt="SignBridge AI Project Card" />
+      </a>
+      <p align="center">
+        <a href="https://github.com/rohanpawar0006/SignBridge-AI">
+          <img src="https://img.shields.io/badge/Repository-SignBridge--AI-7C4DFF?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="SignBridge Repo" />
+        </a>
+        &nbsp;
+        <a href="https://sign-bridge-ai-alpha.vercel.app/">
+          <img src="https://img.shields.io/badge/Live_App-sign--bridge--ai.vercel.app-00E5FF?style=for-the-badge&logo=vercel&logoColor=0B0F1A" alt="SignBridge Live App" />
+        </a>
+      </p>
+      <details>
+        <summary><b>🔍 Deep-Dive: Architecture &amp; Mechanics (Click to Expand)</b></summary>
+        <br/>
+        <ul>
+          <li><b>Two-Way Dialogue:</b> Complete bidirectional bridge — converts physical ISL signs into synthetic audio speech, and spoken voice into animated sign gestures.</li>
+          <li><b>Vision Pipeline:</b> Real-time landmark extraction via MediaPipe Hand Mesh, normalized and passed into a PyTorch Bidirectional LSTM (Bi-LSTM).</li>
+          <li><b>Vocabulary Scale:</b> Recognizes 16 continuous dynamic ISL gestures plus an on-device 36-class classifier for static alphabets and digits.</li>
+          <li><b>Sub-40ms Edge Latency:</b> Highly optimized client-side landmark preprocessing with asynchronous backend inference deployed on Render.</li>
+          <li><b>Full Suite:</b> Includes an interactive ISL digital dictionary and a gamified practice mode to help non-signers learn Indian Sign Language.</li>
+        </ul>
+        <div align="center">
+          <a href="https://sign-bridge-ai-alpha.vercel.app/">
+            <img src="assets/screenshots/signbridge-preview.svg" width="85%" alt="SignBridge UI Screenshot" />
+          </a>
+        </div>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <br/>
+      <!-- Project 3: Next Deployment Slot -->
+      <a href="https://github.com/rohanpawar0006">
+        <img src="assets/project-placeholder.svg" width="100%" alt="Upcoming Project Card" />
+      </a>
+    </td>
+  </tr>
 </table>
 
-## ◈ FEATURED PROJECTS
+<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</div>
+<br/>
 
-### 01 — VaultMind-RAG
+<!-- ================================================================= -->
+<!-- 5. TECH STACK / SKILL BADGES GRID                                -->
+<!-- ================================================================= -->
+## 🛠️ Technical Weaponry
 
-<a href="https://github.com/rohanpawar0006/vaultmind-rag">
-  <img src="assets/project-vaultmind.svg" alt="VaultMind-RAG project card" width="100%" />
-</a>
+<div align="center">
 
-> **Custom RAG assistant for Obsidian vaults — intentionally built without LangChain to demonstrate the mechanics behind retrieval-augmented generation.**
-
-**Pipeline:** note sanitizing → custom sliding-window chunking → local `all-MiniLM-L6-v2` embeddings → ChromaDB → cosine similarity + threshold fallback → strict grounding prompt → Gemini Flash.
-
-**What makes it interesting:** source citations, grounded answers, refusal when relevant context is unavailable, and a focused Obsidian-dark Streamlit interface.
-
-**[Repository →](https://github.com/rohanpawar0006/vaultmind-rag)**
-
-<!-- SCREENSHOT SLOT: Replace the path below with the real image. Recommended: assets/screenshots/vaultmind-rag.png -->
-<!-- Screenshot to capture: full Streamlit chat UI showing a question, grounded answer, and visible source citations. -->
-
-### 02 — SignBridge AI
-
-<a href="https://github.com/rohanpawar0006/SignBridge-AI">
-  <img src="assets/project-signbridge.svg" alt="SignBridge AI project card" width="100%" />
-</a>
-
-> **Real-time bidirectional Indian Sign Language communication platform — bridging signs and speech.**
-
-**Sign → text/voice:** MediaPipe hand landmarks + PyTorch Bi-LSTM across 16 ISL signs, plus an on-device 36-class alphabet/digit classifier. **Speech/text → sign:** sign playback and conversational flow, with live two-way conversation, interactive ISL dictionary, and gamified practice mode.
-
-**Stack:** React/Vite frontend on Vercel + backend on Render.
-
-**[Repository →](https://github.com/rohanpawar0006/SignBridge-AI) · [Live Demo →](https://sign-bridge-ai-alpha.vercel.app/)**
-
-<!-- SCREENSHOT SLOT: Replace the path below with the real image. Recommended: assets/screenshots/signbridge-ai.png -->
-<!-- Screenshot to capture: live conversation screen showing sign recognition/output, ideally with the camera/landmark visualization visible. -->
-
-### 03 — Optional
-
-<!-- Replace this card with your third project, or delete this section. -->
-<a href="https://github.com/rohanpawar0006">
-  <img src="assets/project-3-placeholder.svg" alt="Project 3 placeholder" width="100%" />
-</a>
-
-<img src="assets/divider.svg" width="100%" alt="divider" />
-
-## ◈ TECH STACK
-
+<!-- Row 1: Languages -->
 ### Languages
-
 <p>
   <img src="https://img.shields.io/badge/Python-0B0F1A?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-0B0F1A?style=for-the-badge&logo=javascript&logoColor=00E5FF" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/SQL-0B0F1A?style=for-the-badge&logo=mysql&logoColor=00E5FF" alt="SQL" />
-  <img src="https://img.shields.io/badge/C-0B0F1A?style=for-the-badge&logo=c&logoColor=00E5FF" alt="C" />
+  <img src="https://img.shields.io/badge/JavaScript-0B0F1A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/C%2B%2B-0B0F1A?style=for-the-badge&logo=c%2B%2B&logoColor=00599C" alt="C++" />
+  <img src="https://img.shields.io/badge/SQL-0B0F1A?style=for-the-badge&logo=postgresql&logoColor=3D8BFF" alt="SQL" />
 </p>
 
-### AI / ML
-
+<!-- Row 2: AI & Machine Learning -->
+### AI & Machine Learning
 <p>
   <img src="https://img.shields.io/badge/PyTorch-0B0F1A?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-0B0F1A?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/scikit--learn-0B0F1A?style=for-the-badge&logo=scikit-learn&logoColor=00E5FF" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/MediaPipe-0B0F1A?style=for-the-badge&logo=google&logoColor=4D8BFF" alt="MediaPipe" />
-  <img src="https://img.shields.io/badge/OpenCV-0B0F1A?style=for-the-badge&logo=opencv&logoColor=4D8BFF" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/Sentence--Transformers-0B0F1A?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Sentence Transformers" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-0B0F1A?style=for-the-badge&logo=scikit-learn&logoColor=F7931E" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/MediaPipe-0B0F1A?style=for-the-badge&logo=google&logoColor=00E5FF" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/Hugging_Face-0B0F1A?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" />
   <img src="https://img.shields.io/badge/ChromaDB-0B0F1A?style=for-the-badge&logo=databricks&logoColor=7C4DFF" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/Gemini_API-0B0F1A?style=for-the-badge&logo=google-gemini&logoColor=00E5FF" alt="Gemini API" />
+  <img src="https://img.shields.io/badge/Gemini_API-0B0F1A?style=for-the-badge&logo=googlegemini&logoColor=00E5FF" alt="Gemini API" />
+  <img src="https://img.shields.io/badge/OpenCV-0B0F1A?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
 </p>
 
-### Data & Analytics
-
+<!-- Row 3: Data Analytics & Engineering -->
+### Data Analytics & Engineering
 <p>
-  <img src="https://img.shields.io/badge/Pandas-0B0F1A?style=for-the-badge&logo=pandas&logoColor=00E5FF" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-0B0F1A?style=for-the-badge&logo=numpy&logoColor=4D8BFF" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-0B0F1A?style=for-the-badge&logo=plotly&logoColor=7C4DFF" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Pandas-0B0F1A?style=for-the-badge&logo=pandas&logoColor=150458" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-0B0F1A?style=for-the-badge&logo=numpy&logoColor=013243" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-0B0F1A?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Matplotlib" />
   <img src="https://img.shields.io/badge/Power_BI-0B0F1A?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Excel-0B0F1A?style=for-the-badge&logo=microsoftexcel&logoColor=21A366" alt="Excel" />
-  <img src="https://img.shields.io/badge/SQL-0B0F1A?style=for-the-badge&logo=mysql&logoColor=00E5FF" alt="SQL" />
 </p>
 
-### Web / Deploy
-
+<!-- Row 4: Web & Deployment -->
+### Web & Deployment
 <p>
-  <img src="https://img.shields.io/badge/React-0B0F1A?style=for-the-badge&logo=react&logoColor=00E5FF" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-0B0F1A?style=for-the-badge&logo=vite&logoColor=7C4DFF" alt="Vite" />
+  <img src="https://img.shields.io/badge/React-0B0F1A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-0B0F1A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
   <img src="https://img.shields.io/badge/Streamlit-0B0F1A?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/FastAPI-0B0F1A?style=for-the-badge&logo=fastapi&logoColor=00E5FF" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flask-0B0F1A?style=for-the-badge&logo=flask&logoColor=FFFFFF" alt="Flask" />
+  <img src="https://img.shields.io/badge/FastAPI-0B0F1A?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Vercel-0B0F1A?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Render-0B0F1A?style=for-the-badge&logo=render&logoColor=00E5FF" alt="Render" />
+  <img src="https://img.shields.io/badge/Render-0B0F1A?style=for-the-badge&logo=render&logoColor=46E3B7" alt="Render" />
 </p>
 
-### Tools
-
+<!-- Row 5: Developer Tools -->
+### Developer Workflow
 <p>
   <img src="https://img.shields.io/badge/Git-0B0F1A?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-0B0F1A?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-0B0F1A?style=for-the-badge&logo=visualstudiocode&logoColor=4D8BFF" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Docker-0B0F1A?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Obsidian-0B0F1A?style=for-the-badge&logo=obsidian&logoColor=7C4DFF" alt="Obsidian" />
+  <img src="https://img.shields.io/badge/GitHub-0B0F1A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-0B0F1A?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Obsidian-0B0F1A?style=for-the-badge&logo=obsidian&logoColor=7C3AED" alt="Obsidian" />
 </p>
 
-## ◈ GITHUB ACTIVITY
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rohanpawar0006&show_icons=true&hide_border=true&bg_color=0B0F1A&title_color=00E5FF&icon_color=7C4DFF&text_color=9AA7BD&ring_color=4D8BFF" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohanpawar0006&layout=compact&hide_border=true&bg_color=0B0F1A&title_color=00E5FF&text_color=9AA7BD&icon_color=7C4DFF" height="165" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rohanpawar0006&hide_border=true&background=0B0F1A&ring=00E5FF&fire=7C4DFF&currStreakLabel=00E5FF&sideLabels=9AA7BD&currStreakNum=F4F7FF&sideNums=F4F7FF&dates=68758C" alt="GitHub streak" />
-</p>
-
-<!-- If a public stats service is rate-limited, the profile still remains fully readable; the cards above are supplemental. -->
-
-## ◈ CONTRIBUTION SNAKE
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanpawar0006/rohanpawar0006/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rohanpawar0006/rohanpawar0006/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/rohanpawar0006/rohanpawar0006/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" />
-  </picture>
-</p>
-
-## ◈ CONNECT
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rohan-pawar-bba78b290/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B0F1A?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" /></a>
-  <a href="mailto:rohanpawar0006@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-0B0F1A?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email" /></a>
-  <!-- Add portfolio later: <a href="YOUR_PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-Explore-0B0F1A?style=for-the-badge&logo=googlechrome&logoColor=7C4DFF" alt="Portfolio" /></a> -->
-</p>
-
-<p align="center"><strong>OPEN TO AI/ML INTERNSHIPS</strong> · AI/ML Engineering · RAG · Computer Vision · Data Analytics</p>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=rohanpawar0006&label=PROFILE+VIEWS&color=00E5FF&style=flat-square" alt="Profile views" />
 </div>
 
+<br/>
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Animated footer wave" />
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</div>
+<br/>
+
+<!-- ================================================================= -->
+<!-- 6. GITHUB STATS CARDS (CONSISTENT GLASS THEME)                    -->
+<!-- ================================================================= -->
+## 📊 Telemetry &amp; Activity
+
+<div align="center">
+  <!-- Note: Themed to #0B0F1A with Cyan & Violet accents to seamlessly blend with the glass background -->
+  <!-- In case github-readme-stats is rate-limited by GitHub API, streak-stats acts as fallback -->
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=rohanpawar0006&show_icons=true&bg_color=0B0F1A&title_color=00E5FF&text_color=E2E8F0&icon_color=7C4DFF&border_color=1E293B&border_radius=12&hide_border=false" alt="Rohan's GitHub Stats" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohanpawar0006&layout=compact&bg_color=0B0F1A&title_color=00E5FF&text_color=E2E8F0&border_color=1E293B&border_radius=12&hide_border=false" alt="Top Languages" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://streak-stats.demolab.com/?user=rohanpawar0006&theme=dark&background=0B0F1A&border=1E293B&stroke=7C4DFF&ring=00E5FF&fire=00E5FF&currStreakNum=00E5FF&sideNums=E2E8F0&sideLabels=94A3B8&dates=64748B&border_radius=12" alt="Streak Stats" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-<!--
-SCREENSHOT CHECKLIST
-1. assets/screenshots/vaultmind-rag.png — 1280x720 recommended: Streamlit chat + answer + source citations.
-2. assets/screenshots/signbridge-ai.png — 1280x720 recommended: live conversation/camera + recognition output.
-3. Optional: assets/screenshots/project-3.png — only if Project 3 is added.
+<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</div>
+<br/>
 
-SKILL NOTE
-Every skill in the grid was explicitly confirmed for this README. C++/Java/Tailwind CSS were intentionally omitted because they were not confirmed in the final skill list.
--->
+<!-- ================================================================= -->
+<!-- 7. CONTRIBUTION SNAKE                                             -->
+<!-- ================================================================= -->
+## 🐍 Contribution Velocity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rohanpawar0006/rohanpawar0006/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+</div>
+
+<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</div>
+<br/>
+
+<!-- ================================================================= -->
+<!-- 8. CONNECT & OPPORTUNITY STATUS                                   -->
+<!-- ================================================================= -->
+## 🌐 Let's Build Together
+
+<p align="center">
+  <b>I am actively seeking AI/ML Engineer and Data Analyst Internships (Summer &amp; Fall 2026).</b><br/>
+  <i>Have a team solving hard problems in AI, computer vision, or intelligent data workflows? Let's connect.</i>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rohan-pawar-bba78b290/">
+    <img src="https://img.shields.io/badge/LinkedIn-0B0F1A?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B0F1A" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:rohanpawar0006@gmail.com">
+    <img src="https://img.shields.io/badge/Email-rohanpawar0006@gmail.com-0B0F1A?style=for-the-badge&logo=gmail&logoColor=7C4DFF&labelColor=0B0F1A" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/rohanpawar0006">
+    <img src="https://img.shields.io/badge/GitHub-rohanpawar0006-0B0F1A?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B0F1A" alt="GitHub" />
+  </a>
+</p>
+
+<br/>
+
+<!-- ================================================================= -->
+<!-- 9. FOOTER & VISITOR TELEMETRY                                     -->
+<!-- ================================================================= -->
+<div align="center">
+
+  <a href="https://github.com/rohanpawar0006">
+    <img src="https://komarev.com/ghpvc/?username=rohanpawar0006&label=PROFILE+VIEWS&style=for-the-badge&color=7C4DFF" alt="Profile views" />
+  </a>
+
+  <br/><br/>
+
+  <img src="assets/footer.svg" width="100%" alt="Footer" />
+
+</div>

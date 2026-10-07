@@ -1,1 +1,27 @@
-<svg width="1200" height="36" viewBox="0 0 1200 36" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="0" y1="0" x2="1200" y2="0"><stop stop-color="#00E5FF" stop-opacity="0"/><stop offset=".5" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="17" width="1200" height="1" fill="url(#g)"/><circle cx="600" cy="17" r="4" fill="#00E5FF"><animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/></circle></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" />
+      <stop offset="30%" stop-color="#00E5FF" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#7C4DFF" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#00E5FF" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+    </linearGradient>
+    <filter id="div-glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Glowing Horizontal Line -->
+  <line x1="50" y1="12" x2="850" y2="12" stroke="url(#div-grad)" stroke-width="1.2" />
+
+  <!-- Center Diamond Accent -->
+  <g transform="translate(450, 12)">
+    <polygon points="0,-5 5,0 0,5 -5,0" fill="#7C4DFF" filter="url(#div-glow)" />
+    <polygon points="0,-2.5 2.5,0 0,2.5 -2.5,0" fill="#00E5FF" />
+  </g>
+</svg>
