@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 245" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="hero-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="55%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EFF6FF" />
+    </linearGradient>
+    <linearGradient id="hero-border-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="name-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="68%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <radialGradient id="glow-c-light" cx="18%" cy="28%" r="52%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-v-light" cx="85%" cy="45%" r="48%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="tech-grid-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#CBD5E1" stroke-width="0.6" stroke-opacity="0.55" />
+    </pattern>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+      .pulse { animation: heroPulse 2.8s ease-in-out infinite; }
+      .node { animation: nodeGlow 3.6s ease-in-out infinite alternate; }
+      @keyframes heroPulse { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.35; } }
+      @keyframes nodeGlow { 0% { opacity: 0.4; } 100% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- Card Surface -->
+  <rect width="960" height="245" rx="16" fill="url(#hero-bg-light)" />
+  <rect width="960" height="245" rx="16" fill="url(#tech-grid-light)" />
+  <rect width="960" height="245" rx="16" fill="url(#glow-c-light)" />
+  <rect width="960" height="245" rx="16" fill="url(#glow-v-light)" />
+  <rect x="0.75" y="0.75" width="958.5" height="243.5" rx="15.5" fill="none" stroke="url(#hero-border-light)" stroke-width="1.4" />
+  <path d="M 24 1.2 L 936 1.2" stroke="#FFFFFF" stroke-opacity="0.80" stroke-width="1" />
+
+  <!-- Abstract AI Neural / Vector Topology (Right Side) -->
+  <g transform="translate(690, 28)">
+    <!-- Concentric Orbital Rings -->
+    <circle cx="120" cy="95" r="82" fill="none" stroke="#0284C7" stroke-opacity="0.14" stroke-width="1" stroke-dasharray="4 6" />
+    <circle cx="120" cy="95" r="56" fill="none" stroke="#7C3AED" stroke-opacity="0.22" stroke-width="1" />
+    <circle cx="120" cy="95" r="28" fill="none" stroke="#2563EB" stroke-opacity="0.28" stroke-width="1" />
+
+    <!-- Neural Graph Edges -->
+    <g stroke="#CBD5E1" stroke-width="1.2">
+      <line x1="42" y1="55" x2="120" y2="39" />
+      <line x1="42" y1="55" x2="120" y2="95" />
+      <line x1="42" y1="135" x2="120" y2="95" />
+      <line x1="42" y1="135" x2="120" y2="151" />
+      <line x1="120" y1="39" x2="196" y2="68" />
+      <line x1="120" y1="95" x2="196" y2="68" />
+      <line x1="120" y1="95" x2="196" y2="122" />
+      <line x1="120" y1="151" x2="196" y2="122" />
+    </g>
+
+    <!-- Highlighted Signal Paths -->
+    <path d="M 42 55 L 120 95 L 196 68" fill="none" stroke="#0284C7" stroke-opacity="0.55" stroke-width="1.5" />
+    <path d="M 42 135 L 120 95 L 196 122" fill="none" stroke="#7C3AED" stroke-opacity="0.55" stroke-width="1.5" />
+
+    <!-- Graph Nodes -->
+    <circle cx="42" cy="55" r="4.5" fill="#0284C7" class="node" />
+    <circle cx="42" cy="135" r="4.5" fill="#7C3AED" class="node" />
+    <circle cx="120" cy="39" r="4" fill="#2563EB" />
+    <circle cx="120" cy="95" r="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" />
+    <circle cx="120" cy="95" r="3.5" fill="#0284C7" class="pulse" />
+    <circle cx="120" cy="151" r="4" fill="#2563EB" />
+    <circle cx="196" cy="68" r="5" fill="#0284C7" class="node" />
+    <circle cx="196" cy="122" r="5" fill="#7C3AED" class="node" />
+
+    <!-- Subtle Coordinate Labels -->
+    <text x="120" y="188" fill="#64748B" class="mono" font-size="9.5" text-anchor="middle" letter-spacing="1.2">INTELLIGENT_SYSTEMS.V2</text>
+  </g>
+
+  <!-- Main Content (Left Side) -->
+  <g transform="translate(44, 34)">
+    <!-- Status Badge -->
+    <g>
+      <rect x="0" y="0" width="328" height="25" rx="12.5" fill="#F1F5F9" stroke="#0284C7" stroke-opacity="0.45" stroke-width="1" />
+      <circle cx="15" cy="12.5" r="3.8" fill="#0284C7" class="pulse" />
+      <text x="27" y="16" fill="#0284C7" class="mono" font-size="10" font-weight="700" letter-spacing="0.6">SVCE '27 · OPEN TO AI/ML INTERNSHIPS</text>
+    </g>
+
+    <!-- Name -->
+    <text x="0" y="76" fill="url(#name-grad-light)" class="sans" font-size="44" font-weight="900" letter-spacing="-1">ROHAN PAWAR</text>
+
+    <!-- Main Headline -->
+    <text x="0" y="106" fill="#7C3AED" class="mono" font-size="13.5" font-weight="700" letter-spacing="1.4">AI ENGINEER  |  MACHINE LEARNING  |  INTELLIGENT SYSTEMS</text>
+
+    <!-- Concise Positioning -->
+    <text x="0" y="135" fill="#334155" class="sans" font-size="14" font-weight="400">
+      Designing grounded RAG pipelines, real-time computer vision, and full-stack AI systems.
+    </text>
+
+    <!-- Focus Chips -->
+    <g transform="translate(0, 156)">
+      <rect x="0" y="0" width="128" height="26" rx="6" fill="#F1F5F9" stroke="#0284C7" stroke-opacity="0.4" stroke-width="1" />
+      <text x="64" y="16.5" fill="#0284C7" class="mono" font-size="10.5" font-weight="600" text-anchor="middle">RAG &amp; Agents</text>
+
+      <rect x="138" y="0" width="142" height="26" rx="6" fill="#F1F5F9" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1" />
+      <text x="209" y="16.5" fill="#7C3AED" class="mono" font-size="10.5" font-weight="600" text-anchor="middle">Computer Vision</text>
+
+      <rect x="290" y="0" width="136" height="26" rx="6" fill="#F1F5F9" stroke="#2563EB" stroke-opacity="0.4" stroke-width="1" />
+      <text x="358" y="16.5" fill="#2563EB" class="mono" font-size="10.5" font-weight="600" text-anchor="middle">Data Analytics</text>
+
+      <rect x="436" y="0" width="136" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="504" y="16.5" fill="#334155" class="mono" font-size="10.5" font-weight="600" text-anchor="middle">Full-Stack AI</text>
+    </g>
+  </g>
+</svg>

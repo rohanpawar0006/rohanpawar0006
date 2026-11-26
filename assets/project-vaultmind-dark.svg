@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="p-bg-vaultmind-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D121F" />
+      <stop offset="100%" stop-color="#080B12" />
+    </linearGradient>
+    <linearGradient id="p-border-vaultmind-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.9" />
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="960" height="250" rx="14" fill="url(#p-bg-vaultmind-dark)" />
+  <rect x="0.75" y="0.75" width="958.5" height="248.5" rx="13.5" fill="none" stroke="url(#p-border-vaultmind-dark)" stroke-width="1.3" />
+  <path d="M 18 1.2 L 942 1.2" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1" />
+
+  <!-- Left Content -->
+  <g transform="translate(30, 24)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="219" height="22" rx="11" fill="#12192B" stroke="#00E5FF" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="12" cy="11" r="3" fill="#00E5FF" />
+    <text x="22" y="14.5" fill="#00E5FF" class="mono" font-size="9.5" font-weight="700" letter-spacing="0.5">RAG ENGINE · KNOWLEDGE SYSTEMS</text>
+
+    <!-- Title & Subtitle -->
+    <text x="0" y="54" fill="#F8FAFC" class="sans" font-size="24" font-weight="800" letter-spacing="-0.4">VaultMind-RAG</text>
+    <text x="0" y="75" fill="#CBD5E1" class="sans" font-size="13" font-weight="500">Grounded RAG knowledge assistant for personal Obsidian vaults.</text>
+
+    <!-- Problem & Implementation Box -->
+    <g transform="translate(0, 90)">
+      <rect width="590" height="72" rx="8" fill="#12192B" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="20" fill="#00E5FF" class="mono" font-size="10.5" font-weight="700">PROBLEM:</text>
+      <text x="78" y="20" fill="#CBD5E1" class="sans" font-size="11.5">Querying personal Markdown notes without ungrounded LLM fabrications.</text>
+      <text x="14" y="40" fill="#8B5CF6" class="mono" font-size="10.5" font-weight="700">SYSTEM:</text>
+      <text x="78" y="40" fill="#CBD5E1" class="sans" font-size="11.5">Custom document chunking, Sentence Transformers &amp; ChromaDB retrieval.</text>
+      <text x="78" y="57" fill="#94A3B8" class="sans" font-size="11.5">Relevance threshold fallback gates &amp; source-grounded markdown citations.</text>
+    </g>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 178)">
+      <g transform="translate(0.0, 0)"><rect width="60.8" height="23" rx="6" fill="#12192B" stroke="#00E5FF" stroke-opacity="0.38" stroke-width="1" /><text x="30.4" y="15" fill="#00E5FF" class="mono" font-size="10.2" font-weight="600" text-anchor="middle">Python</text></g>
+      <g transform="translate(68.8, 0)"><rect width="162.8" height="23" rx="6" fill="#12192B" stroke="#8B5CF6" stroke-opacity="0.38" stroke-width="1" /><text x="81.4" y="15" fill="#8B5CF6" class="mono" font-size="10.2" font-weight="600" text-anchor="middle">Sentence Transformers</text></g>
+      <g transform="translate(239.6, 0)"><rect width="74.4" height="23" rx="6" fill="#12192B" stroke="#3B82F6" stroke-opacity="0.38" stroke-width="1" /><text x="37.2" y="15" fill="#3B82F6" class="mono" font-size="10.2" font-weight="600" text-anchor="middle">ChromaDB</text></g>
+      <g transform="translate(322.0, 0)"><rect width="88.0" height="23" rx="6" fill="#12192B" stroke="#00E5FF" stroke-opacity="0.38" stroke-width="1" /><text x="44.0" y="15" fill="#00E5FF" class="mono" font-size="10.2" font-weight="600" text-anchor="middle">Gemini API</text></g>
+      <g transform="translate(418.0, 0)"><rect width="81.2" height="23" rx="6" fill="#12192B" stroke="#8B5CF6" stroke-opacity="0.38" stroke-width="1" /><text x="40.6" y="15" fill="#8B5CF6" class="mono" font-size="10.2" font-weight="600" text-anchor="middle">Streamlit</text></g>
+    </g>
+  </g>
+
+  <!-- Right Architecture Panel -->
+  <g transform="translate(652, 18)">
+    <rect width="276" height="214" rx="10" fill="#12192B" stroke="#1E293B" stroke-width="1.1" />
+    <text x="14" y="21" fill="#94A3B8" class="mono" font-size="9.5" font-weight="700" letter-spacing="0.7">PIPELINE // VAULTMIND-RAG</text>
+    <line x1="14" y1="27" x2="262" y2="27" stroke="#1E293B" stroke-width="0.8" />
+    <rect x="14" y="34" width="248" height="32" rx="7" fill="#0D121F" stroke="#00E5FF" stroke-opacity="0.42" stroke-width="1" /><circle cx="28" cy="50" r="3.2" fill="#00E5FF" /><text x="40" y="48" fill="#F8FAFC" class="mono" font-size="10" font-weight="700">Obsidian Vault</text><text x="40" y="60" fill="#94A3B8" class="sans" font-size="9.5">Custom Markdown document chunking</text><line x1="138" y1="66" x2="138" y2="78" stroke="#1E293B" stroke-width="1.3" /><polygon points="135,75 141,75 138,78" fill="#64748B" /><rect x="14" y="78" width="248" height="32" rx="7" fill="#0D121F" stroke="#8B5CF6" stroke-opacity="0.42" stroke-width="1" /><circle cx="28" cy="94" r="3.2" fill="#8B5CF6" /><text x="40" y="92" fill="#F8FAFC" class="mono" font-size="10" font-weight="700">Sentence Transformers</text><text x="40" y="104" fill="#94A3B8" class="sans" font-size="9.5">Dense vector embeddings</text><line x1="138" y1="110" x2="138" y2="122" stroke="#1E293B" stroke-width="1.3" /><polygon points="135,119 141,119 138,122" fill="#64748B" /><rect x="14" y="122" width="248" height="32" rx="7" fill="#0D121F" stroke="#3B82F6" stroke-opacity="0.42" stroke-width="1" /><circle cx="28" cy="138" r="3.2" fill="#3B82F6" /><text x="40" y="136" fill="#F8FAFC" class="mono" font-size="10" font-weight="700">ChromaDB + Threshold</text><text x="40" y="148" fill="#94A3B8" class="sans" font-size="9.5">Semantic search &amp; fallback gate</text><line x1="138" y1="154" x2="138" y2="166" stroke="#1E293B" stroke-width="1.3" /><polygon points="135,163 141,163 138,166" fill="#64748B" /><rect x="14" y="166" width="248" height="32" rx="7" fill="#0D121F" stroke="#00E5FF" stroke-opacity="0.42" stroke-width="1" /><circle cx="28" cy="182" r="3.2" fill="#00E5FF" /><text x="40" y="180" fill="#F8FAFC" class="mono" font-size="10" font-weight="700">Gemini API + Citations</text><text x="40" y="192" fill="#94A3B8" class="sans" font-size="9.5">Source-grounded markdown answers</text>
+  </g>
+</svg>
